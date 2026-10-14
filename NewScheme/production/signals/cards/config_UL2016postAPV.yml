@@ -1,0 +1,446 @@
+ori_dir: '/cefs/higgs/zhuhao/HZZ_bkp/CMSSW_10_6_26/src/HZZAnalysis/UL_Legacy'
+signal_ori_dir: '/cefs/higgs/zhuhao/HZZ_bkp/CMSSW_10_6_26/src/HZZAnalysis/UL_Legacy'
+signal_unskimmed_ori_dir: '/cms/user/guojl/Sample/2L2Q/UL_Legacy'
+apply_deepjet_sf: true
+
+samples_inf:
+   DY_pt50To100: ['MC/DYJetsToLL_LHEFilterPtZ-50To100_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8', 398.8]
+   DY_pt100To250: ['MC/DYJetsToLL_LHEFilterPtZ-100To250_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8',93.61]
+   DY_pt250To400: ['MC/DYJetsToLL_LHEFilterPtZ-250To400_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8',3.67]
+   DY_pt400To650: ['MC/DYJetsToLL_LHEFilterPtZ-400To650_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8',0.5]
+   DY_pt650ToInf: ['MC/DYJetsToLL_LHEFilterPtZ-650ToInf_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8',0.04704]
+   TTJets: ['MC/TTJets_TuneCP5_13TeV-amcatnloFXFX-pythia8',831.76]
+   TTTo2L2Nu: ['MC/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8',88.29]
+   WW_TuneCP5: ['MC/WW_TuneCP5_13TeV-pythia8',1]
+   WWTo2L2Nu: ['MC/WWTo2L2Nu_TuneCP5_13TeV-powheg-pythia8',11.09]
+   WZTo2Q2L: ['MC/WZTo2Q2L_mllmin4p0_TuneCP5_13TeV-amcatnloFXFX-pythia8',6.419]
+   ZZTo2Q2L: ['MC/ZZTo2Q2L_mllmin4p0_TuneCP5_13TeV-amcatnloFXFX-pythia8',3.696]
+   ZH_HToBB: ['MC/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8',0.0317]
+   ZH_HToCC: ['MC/ZH_HToCC_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8',0.03079]
+   ZH_HToGG: ['MC/ZH_HToGG_ZToAll_M125_TuneCP5_13TeV-powheg-pythia8',0.02991]
+   tZq: ['MC/tZq_ll_4f_ckm_NLO_TuneCP5_13TeV-amcatnlo-pythia8',0.07561]
+   #ggH1000: ['MC/Signal/skimed/GluGluHToZZTo2L2Q_M1000_TuneCP5_13TeV_powheg2_JHUGenV7011_pythia8_0.root',5.07]
+   #VBF1500: ['MC/Signal/skimed/VBF_HToZZTo2L2Q_M1500_TuneCP5_13TeV_powheg2_JHUGenV7011_pythia8_0.root',0.77]
+   sig: ['MC/sig',1]
+   ggh: ['MC/ggh',1]
+   ggh125: ['MC/ggh125',1]
+   ggh300: ['MC/ggh300',1]
+   ggh350: ['MC/ggh350',1]
+   ggh400: ['MC/ggh',1]
+   ggh450: ['MC/ggh',1]
+   ggh500: ['MC/ggh',1]
+   ggh550: ['MC/ggh',1]
+   ggh600: ['MC/ggh',1]
+   ggh700: ['MC/ggh',1]
+   ggh800: ['MC/ggh',1]
+   ggh900: ['MC/ggh',1]
+   ggh1000: ['MC/ggh',1]
+   ggh1500: ['MC/ggh',1]
+   ggh2000: ['MC/ggh',1]
+   ggh2500: ['MC/ggh',1]
+   ggh3000: ['MC/ggh',1]
+   vbf400: ['MC/vbf',1]
+   vbf450: ['MC/vbf',1]
+   vbf500: ['MC/vbf',1]
+   vbf550: ['MC/vbf',1]
+   vbf600: ['MC/vbf',1]
+   vbf700: ['MC/vbf',1]
+   vbf800: ['MC/vbf',1]
+   vbf900: ['MC/vbf',1]
+   vbf1000: ['MC/vbf',1]
+   vbf1500: ['MC/vbf',1]
+   vbf2000: ['MC/vbf',1]
+   vbf2500: ['MC/vbf',1]
+   vbf3000: ['MC/vbf',1]
+   vbf: ['MC/vbf',1]
+   test: 'MC/test'
+   Data: ['Data/skimed/Data2016UL_noDuplicates.root',1]
+
+Samples_lists: [
+                'DY_pt50To100','DY_pt100To250','DY_pt250To400','DY_pt400To650','DY_pt650ToInf',
+            #     'TTTo2L2Nu',
+            #   'WZTo2Q2L',
+            #   'ZZTo2Q2L',
+            #   'WWTo2L2Nu',
+            #   'tZq',
+            #   'Data'
+              ]
+
+signal_lists: ['ggh', 'vbf']
+#signal_lists: [ 'ggh','ggh500','ggh600','ggh700','ggh800','ggh900','ggh1500','ggh2500','ggh3000','vbf1500']
+
+lumi:
+    '2016': 36.33
+    '2016preAPV': 19.52
+    '2016postAPV': 16.81
+    '2017': 41.48
+    '2018': 59.83
+    '2018new': 59.83
+
+bininfo:
+    'mass2l': [24,60,120,"M(ll)"]
+    'pt2l': [70,100,800,"Pt(ll)"]
+    'massmerged': [40,0,200,"M(J)"]
+    #'massmerged': [24,0,160,"M(J)"] #aTGC
+    'ptmerged': [60,200,800,"Pt(J)"]
+    'mass2l2jet': [70,500,4000,"M(2l2q)"]
+    'mass2lj': [70,500,4000,"M(2l2q)"]
+    'pt2jet': [70,100,800,"Pt(jj)"]
+    'mass2jet': [28,40,180,"M(jj)"]
+    #'mass2jet': [24,40,160,"M(jj)"] #aTGC
+    'particleNetZvsQCD': [20,0,1,"particleNetZvsQCD"]
+    'particleNetZbbvslight': [20,0,1,"particleNetZbbvslight"]
+    'KD_jjVBF': [50,0,1,"VBF(score)"]
+    'KD_JVBF': [50,0,1,"VBF(score)"]
+    'KD_ZJ': [50,0,1,"Zjj(score)"]
+    'KD_Zjj': [50,0,1,"Zjj(score)"]
+    'lep_1_pt': [240,10,1210, "Pt(l)"]
+    'lep_2_pt': [240,10,1210, "Pt(l)"]
+
+channel: ['isEE','isMuMu','2lep']
+cat: ['lep','ak4','ak8','net'] #net means ak8+particleNet cut
+
+#var to read
+var_read_lists: ['pt2l','mass2l','EventWeight','foundZ1LCandidate','foundTTCRCandidate','foundZ2JCandidate','foundZ2MergedCandidata','foundTTCRCandidate','passedfullmerged','passedfullresolved','particleNetZvsQCD','passedNassociated','isEE','isMuMu',
+                        'massmerged','ptmerged',
+                        'pt2jet','mass2jet',
+                        'mass2l2jet', 'mass2lj',
+                        'KD_jjVBF','KD_JVBF','KD_ZJ','KD_Zjj',
+                        'isbjet','iscjet','islightjet',
+                        'jet_1_btag','jet_2_btag','particleNetZbbvslight',
+                        'lep_1_pt','lep_2_pt', 'jet_1_deepbtag','jet_2_deepbtag',
+                        'jet_1_deepbtag_up','jet_1_deepbtag_dn','jet_2_deepbtag_up','jet_2_deepbtag_dn',
+                        'GEN_H1_mass','Nleptons','Ntightleptons']
+
+#cut:
+#    lep:
+#        isEE: '(foundZ1LCandidate==True) & (isEE==True)'
+#        isMuMu: '(foundZ1LCandidate==True) & (isMuMu==True)'
+#        2lep: "(foundZ1LCandidate==True)"
+#    resolved:
+#        CR:
+#            isEE:
+#                btag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+#                untag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+#                vbftag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True)'
+#                all: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+#            isMuMu:
+#                btag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+#                untag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+#                vbftag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True)'
+#                all: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+#            2lep:
+#                btag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7))  & (jet_1_btag==1) & (jet_2_btag==1)'
+#                untag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_btag==0) | (jet_2_btag==0))'
+#                vbftag: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7))'
+#                all: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True)'
+#
+#        SR:
+#            isEE:
+#                btag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+#                untag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+#                vbftag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True)'
+#                all: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+#            isMuMu:
+#                btag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+#                untag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+#                vbftag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True)'
+#                all: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+#            2lep:
+#                btag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (jet_1_btag==1) & (jet_2_btag==1)'
+#                untag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_btag==0) | (jet_2_btag==0))'
+#                vbftag: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7))'
+#                all: '((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True)'
+#    resolved_up:
+#        CR:
+#            isEE:
+#                btag:   '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isEE==True) & (jet_1_btag_up==1) & (jet_2_btag_up==1)'
+#                untag:  '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isEE==True) & ((jet_1_btag_up==0) | (jet_2_btag_up==0))'
+#                vbftag: '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up>0.5) & (isEE==True)'
+#                all:    '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (isEE==True)'
+#            isMuMu:
+#                btag:   '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isMuMu==True) & (jet_1_btag_up==1) & (jet_2_btag_up==1)'
+#                untag:  '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isMuMu==True) & ((jet_1_btag_up==0) | (jet_2_btag_up==0))'
+#                vbftag: '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up>0.5) & (isMuMu==True)'
+#                all:    '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (isMuMu==True)'
+#            2lep:
+#                btag:   '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5)  & (jet_1_btag_up==1) & (jet_2_btag_up==1)'
+#                untag:  '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & ((jet_1_btag_up==0) | (jet_2_btag_up==0))'
+#                vbftag: '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up>0.5)'
+#                all:    '((mass2jet_up<70) | (mass2jet_up>135)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True)'
+#
+#        SR:
+#            isEE:
+#                btag:   '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isEE==True) & (jet_1_btag_up==1) & (jet_2_btag_up==1)'
+#                untag:  '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isEE==True) & ((jet_1_btag_up==0) | (jet_2_btag_up==0))'
+#                vbftag: '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up>0.5) & (isEE==True)'
+#                all:    '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (isEE==True)'
+#            isMuMu:
+#                btag:   '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isMuMu==True) & (jet_1_btag_up==1) & (jet_2_btag_up==1)'
+#                untag:  '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (isMuMu==True) & ((jet_1_btag_up==0) | (jet_2_btag_up==0))'
+#                vbftag: '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up>0.5) & (isMuMu==True)'
+#                all:    '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (isMuMu==True)'
+#            2lep:
+#                btag:   '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & (jet_1_btag_up==1) & (jet_2_btag_up==1)'
+#                untag:  '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up<0.5) & ((jet_1_btag_up==0) | (jet_2_btag_up==0))'
+#                vbftag: '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True) & (KD_jjVBF_up>0.5)'
+#                all:    '((mass2jet_up>70) & (mass2jet_up<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate_up==True)'
+#    merged:
+#        notag: 
+#            isEE: '((massmerged<70) | (massmerged>105)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#            isMuMu : '((massmerged<70) | (massmerged>105)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#            2lep: '((massmerged<70) | (massmerged>105)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#        net:
+#            CR:
+#                isEE:
+#                    btag:   '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                    untag:  '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                    vbftag: '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                    all:    '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                isMuMu:
+#                    btag:   '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                    untag:  '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                    vbftag: '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                    all:    '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                2lep:
+#                    btag:   '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#                    untag:  '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#                    vbftag: '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#                    all:    '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#                    tt:     '(particleNetZvsQCD>0.9) & (foundTTCRCandidate==True) & (foundZ2MergedCandidata==True)'
+#            SR:
+#                isEE:
+#                    btag:   '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                    untag:  '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                    vbftag: '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                    all:    '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+#                isMuMu:
+#                    btag:   '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                    untag:  '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                    vbftag: '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                    all:    '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+#                2lep:
+#                    btag:   '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#                    untag:  '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#                    vbftag: '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+#                    all:    '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+
+                
+
+
+
+
+
+        
+
+
+cut:
+    CR:
+        isEE:
+            lep: '(foundZ1LCandidate==True) & (isEE==True)'
+            ak8: '((massmerged<70) | (massmerged>105)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+            net: '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+            ak4: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+            resolved: 
+                #btag:    '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:     '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:   '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:    '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:   '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True)'
+                vbfbtag:  '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                vbfuntag: '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:      '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+            merged:
+                btag:     '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                untag:    '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbftag:   '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbfuntag: '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbfbtag:  '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                all:      '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+
+        isMuMu:
+            lep: '(foundZ1LCandidate==True) & (isMuMu==True)'
+            ak8: '((massmerged<70) | (massmerged>105)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+            net: '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+            ak4: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+            resolved: 
+                #btag:    '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:     '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:   '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:    '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:   '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True)'
+                vbfuntag: '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbfbtag:  '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                all:      '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+            merged:
+                btag:     '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                untag:    '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbftag:   '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbfbtag:  '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbfuntag: '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                all:      '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+        2lep:
+            lep: '(foundZ1LCandidate==True)'
+            net: '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+            ak4: '((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) '
+            resolved: 
+                #btag:    '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7))  & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:     '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7))  & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:   '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:    '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:   '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7))'
+                vbfbtag:  '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                vbfuntag: '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:      '(Met<=150) & ((mass2jet<70) | (mass2jet>105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True)'
+            merged:
+                btag:     '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                untag:    '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbftag:   '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbfbtag:  '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbfuntag: '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                all:      '(Met<=150) & ((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                tt:       '(Met<=150) & (particleNetZvsQCD>0.9) & (foundTTCRCandidate==True) & (foundZ2MergedCandidata==True)'
+
+        ak4:
+            tt: '((mass2jet<70) | (mass2jet>105)) & (foundTTCRCandidate==True) & (foundZ2JCandidate==True)'
+        net:
+            tt: '((massmerged<70) | (massmerged>105)) & (particleNetZvsQCD>0.9) & (foundTTCRCandidate==True) & (foundZ2MergedCandidata==True)'
+    SR:
+        isEE:
+            lep: '(Met<=150) & (foundZ1LCandidate==True) & (isEE==True)'
+            ak8: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+            net: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+            ak4: '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+            resolved: 
+                #btag:    '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:     '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:   '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:    '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:   '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True)'
+                vbfbtag:  '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                vbfuntag: '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:      '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+
+            merged:
+                btag:     '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                untag:    '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbftag:   '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbfbtag:  '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbfuntag: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                all:      '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+
+        isMuMu:
+            lep: '(Met<=150) & (foundZ1LCandidate==True) & (isMuMu==True)'
+            ak8: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+            net: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+            ak4: '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+            resolved: 
+                #btag:    '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:     '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:   '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:    '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:   '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True)'
+                vbfbtag:  '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489) '
+                vbfuntag: '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:      '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+            merged:
+                btag:     '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                untag:    '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbftag:   '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbfbtag:  '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbfuntag: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                all:      '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+        2lep:
+            lep: '(Met<=150) & (foundZ1LCandidate==True)'
+            net: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+            ak4: '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True)'
+            resolved: 
+                #btag:     '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:      '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:    '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:     '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:    '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7))'
+                vbfbtag:   '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                vbfuntag:  '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:       '(Met<=150) & ((mass2jet>70) & (mass2jet<105)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True)'
+            merged:
+                btag:     '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                untag:    '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbftag:   '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbfbtag:  '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbfuntag: '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                all:      '(Met<=150) & ((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+
+        ak4:
+            tt: '((mass2jet>70) & (mass2jet<105)) & (foundTTCRCandidate==True) & (foundZ2JCandidate==True)'
+        net:
+            tt: '((massmerged>70) & (massmerged<105)) & (particleNetZvsQCD>0.9) & (foundTTCRCandidate==True) & (foundZ2MergedCandidata==True)'
+    VR:
+        isEE:
+            lep: '(Met<=150) & (foundZ1LCandidate==True) & (isEE==True)'
+            ak8: '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+            net: '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+            ak4: '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+            resolved: 
+                btag:     '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:   '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:    '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isEE==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:   '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True)'
+                vbfbtag:  '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                vbfuntag: '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isEE==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:      '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isEE==True)'
+
+            merged:
+                btag:     '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                untag:    '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbftag:   '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbfbtag:  '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9)  & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                vbfuntag: '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+                all:      '(Met<=150) & ((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isEE==True)'
+
+        isMuMu:
+            lep: '(Met<=150) &(foundZ1LCandidate==True) & (isMuMu==True)'
+            ak8: '(Met<=150) &((massmerged>135) & (massmerged<165)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+            net: '(Met<=150) &((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+            ak4: '(Met<=150) &((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+            resolved: 
+                #btag:    '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:     '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:   '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:    '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (isMuMu==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:   '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True)'
+                vbfbtag:  '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                vbfuntag: '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (isMuMu==True) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:      '(Met<=150) & ((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & (isMuMu==True)'
+            merged:
+                btag:   '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                untag:  '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbftag: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbfbtag: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                vbfuntag: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+                all:    '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True) & (isMuMu==True)'
+        2lep:
+            lep: '(foundZ1LCandidate==True)'
+            net: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+            ak4: '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True)'
+            resolved: 
+                #btag:   '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (jet_1_btag==1) & (jet_2_btag==1)'
+                btag:    '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                #untag:  '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_btag==0) | (jet_2_btag==0))'
+                untag:   '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF<0.5) & (KD_jVBF<0.7)) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                vbftag:  '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7))'
+                vbfbtag:  '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & (jet_1_deepbtag>0.2489) & (jet_2_deepbtag>0.2489)'
+                vbfuntag:  '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True) & ((KD_jjVBF>=0.5) | (KD_jVBF>=0.7)) & ((jet_1_deepbtag<0.2489) | (jet_2_deepbtag<0.2489))'
+                all:     '((mass2jet>135) & (mass2jet<165)) & (foundZ1LCandidate==True) & (foundZ2JCandidate==True)'
+            merged:
+                btag:   '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                untag:  '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF<0.7) & (KD_JJVBF<0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbftag: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbfbtag: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight>0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                vbfuntag: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (particleNetZbbvslight<0.9) & ((KD_JVBF>=0.7) | (KD_JJVBF>=0.5)) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+                all:    '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (foundZ1LCandidate==True) & (foundZ2MergedCandidata==True)'
+
+        ak4:
+            tt: '((mass2jet>135) & (mass2jet<165)) & (foundTTCRCandidate==True) & (foundZ2JCandidate==True)'
+        net:
+            tt: '((massmerged>135) & (massmerged<165)) & (particleNetZvsQCD>0.9) & (foundTTCRCandidate==True) & (foundZ2MergedCandidata==True)'

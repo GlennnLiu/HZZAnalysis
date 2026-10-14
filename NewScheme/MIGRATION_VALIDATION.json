@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "python_files": 80,
+  "cli_help_checked": [
+    "production/background/produce_reduced_stream.py",
+    "production/background/make_reduced_trees.py",
+    "production/signals/prepare_signal.py",
+    "production/signals/produce_signal_reduced.py",
+    "plots/z_kinematics/plot_run2_z.py",
+    "plots/discriminants/plot_run2_kd.py",
+    "plots/pnet/plot_run2_pnet.py",
+    "plots/pnet_fullrange/plot_fullrange_pnet.py",
+    "plots/dy_pnet/plot_dy_pnet.py",
+    "plots/sr_pnet/check_sr_pnet.py",
+    "plots/alpha_pnet/check_alpha_pnet.py",
+    "plots/alpha_closure/check_alpha_closure.py",
+    "plots/signal_overlay/prepare_histograms.py",
+    "plots/signal_overlay/render_plots.py",
+    "plots/signal_overlay/revise_layouts.py",
+    "studies/alpha_ratio/pt_reweight_channel.py",
+    "studies/alpha_ratio/plot_sr_methods.py",
+    "studies/alpha_ratio/plot_vr_methods.py",
+    "studies/alpha_ratio/plot_sr_zh_statband.py",
+    "studies/alpha_ratio/redraw_without_mass.py"
+  ],
+  "frozen_assets_identical": 16,
+  "unchanged_physics_functions": [
+    "needs_particle_net",
+    "selection_branches",
+    "input_path",
+    "particle_net_sf",
+    "mc_weights",
+    "reduced_record",
+    "apply_alpha",
+    "make_zjet"
+  ],
+  "no_production": true,
+  "no_refit": true,
+  "no_submission": true
+}

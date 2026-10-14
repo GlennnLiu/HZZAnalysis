@@ -1,0 +1,66 @@
+[
+  {
+    "era": "2016preAPV",
+    "category": "resolved",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016preAPV_resolved.sh",
+    "returncode": 0,
+    "cluster_id": 82173109,
+    "submission_output": "1 job(s) submitted to cluster 82173109.\n"
+  },
+  {
+    "era": "2016preAPV",
+    "category": "merged",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016preAPV_merged.sh",
+    "returncode": 0,
+    "cluster_id": 82173110,
+    "submission_output": "1 job(s) submitted to cluster 82173110.\n"
+  },
+  {
+    "era": "2016postAPV",
+    "category": "resolved",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016postAPV_resolved.sh",
+    "returncode": 0,
+    "cluster_id": 82173111,
+    "submission_output": "1 job(s) submitted to cluster 82173111.\n"
+  },
+  {
+    "era": "2016postAPV",
+    "category": "merged",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016postAPV_merged.sh",
+    "returncode": 0,
+    "cluster_id": 82173112,
+    "submission_output": "1 job(s) submitted to cluster 82173112.\n"
+  },
+  {
+    "era": "2017",
+    "category": "resolved",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2017_resolved.sh",
+    "returncode": 0,
+    "cluster_id": 82173113,
+    "submission_output": "1 job(s) submitted to cluster 82173113.\n"
+  },
+  {
+    "era": "2017",
+    "category": "merged",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2017_merged.sh",
+    "returncode": 0,
+    "cluster_id": 82173114,
+    "submission_output": "1 job(s) submitted to cluster 82173114.\n"
+  },
+  {
+    "era": "2018",
+    "category": "resolved",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2018_resolved.sh",
+    "returncode": 0,
+    "cluster_id": 82173115,
+    "submission_output": "1 job(s) submitted to cluster 82173115.\n"
+  },
+  {
+    "era": "2018",
+    "category": "merged",
+    "script": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2018_merged.sh",
+    "returncode": 0,
+    "cluster_id": 82173116,
+    "submission_output": "1 job(s) submitted to cluster 82173116.\n"
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/plot_run2_z.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/z_kinematics/plot_run2_z.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/plot_run2_z.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/validate_package.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/z_kinematics/validate_package.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/validate_package.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/plot_run2_kd.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/discriminants/plot_run2_kd.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/plot_run2_kd.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/validate_package.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/discriminants/validate_package.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/validate_package.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_scores/plot_run2_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/pnet/plot_run2_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_scores/plot_run2_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_scores/validate_package.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/pnet/validate_package.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_scores/validate_package.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/plot_fullrange_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/pnet_fullrange/plot_fullrange_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/plot_fullrange_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/validate_package.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/pnet_fullrange/validate_package.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/validate_package.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/plot_dy_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/dy_pnet/plot_dy_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/plot_dy_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/test_dy_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/dy_pnet/test_dy_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/test_dy_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/validate_package.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/dy_pnet/validate_package.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/validate_package.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/check_sr_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/sr_pnet/check_sr_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/check_sr_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/test_sr_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/sr_pnet/test_sr_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/test_sr_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/check_alpha_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_pnet/check_alpha_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/check_alpha_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/test_alpha_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_pnet/test_alpha_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/test_alpha_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/validate_package.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_pnet/validate_package.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/validate_package.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/check_alpha_closure.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_closure/check_alpha_closure.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/check_alpha_closure.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/plot_helpers.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_closure/plot_helpers.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/plot_helpers.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/replot_cached.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_closure/replot_cached.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/replot_cached.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/test_closure.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_closure/test_closure.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/test_closure.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/validate_package.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/alpha_closure/validate_package.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/validate_package.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/package_layouts.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/package_layouts.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/package_layouts.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_fullrange_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/plot_fullrange_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_fullrange_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_run2_kd.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/plot_run2_kd.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_run2_kd.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_run2_pnet.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/plot_run2_pnet.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_run2_pnet.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/prepare_histograms.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/prepare_histograms.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/prepare_histograms.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/render_plots.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/render_plots.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/render_plots.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/revise_layouts.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/revise_layouts.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/revise_layouts.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/validate_plots.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/plots/signal_overlay/validate_plots.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/validate_plots.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/auxiliary_alpha_closure.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/auxiliary_alpha_closure.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/auxiliary_alpha_closure.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/closure_untag.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/closure_untag.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/closure_untag.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/common.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/common.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/common.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/compare_zh_subtraction.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/compare_zh_subtraction.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/compare_zh_subtraction.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/double_ratio_untag.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/double_ratio_untag.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/double_ratio_untag.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/finalize_pt_reweight_channel.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/finalize_pt_reweight_channel.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/finalize_pt_reweight_channel.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/mass_reweight_dy.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/mass_reweight_dy.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/mass_reweight_dy.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/package_pt_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/package_pt_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/package_pt_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/package_study.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/package_study.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/package_study.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_cr_mass_pt_reweight_channel.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_cr_mass_pt_reweight_channel.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_cr_mass_pt_reweight_channel.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_cr_pt_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_cr_pt_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_cr_pt_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_double_ratio_summary.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_double_ratio_summary.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_double_ratio_summary.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_mass_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_mass_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_mass_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_pt_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_pt_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_pt_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_pt_reweight_channel.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_pt_reweight_channel.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_pt_reweight_channel.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_methods.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_sr_methods.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_methods.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_pt_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_sr_pt_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_pt_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_zh_statband.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_sr_zh_statband.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_zh_statband.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_vr_methods.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/plot_vr_methods.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_vr_methods.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/prepare_zh_reduced.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/prepare_zh_reduced.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/prepare_zh_reduced.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/probe_pt_inputs.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/probe_pt_inputs.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/probe_pt_inputs.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_channel.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/pt_reweight_channel.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_channel.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_core.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/pt_reweight_core.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_core.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_dy.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/pt_reweight_dy.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_dy.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_scan.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/pt_reweight_scan.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_scan.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/quick_validate.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/quick_validate.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/quick_validate.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/study_crs.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/study_crs.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/study_crs.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_auxiliary_alpha_closure.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/test_auxiliary_alpha_closure.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_auxiliary_alpha_closure.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_mass_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/test_mass_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_mass_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_pt_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/test_pt_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_pt_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_pt_reweight_channel.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/test_pt_reweight_channel.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_pt_reweight_channel.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_zh_subtraction.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/test_zh_subtraction.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_zh_subtraction.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/validate_pt_reweight.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/validate_pt_reweight.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/validate_pt_reweight.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/validate_study.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/validate_study.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/validate_study.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/zjet_mass_slices.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/zjet_mass_slices.py",
+    "preserved_original": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/zjet_mass_slices.py.pre_NewScheme_20261014"
+  },
+  {
+    "old": "/scratchfs2/cms/liugeliang/vr_no_mass_20261013/redraw_without_mass.py",
+    "canonical": "/publicfs/cms/user/liugeliang/CMS/HZZAnalysis/NewScheme/studies/alpha_ratio/redraw_without_mass.py",
+    "preserved_original": "/scratchfs2/cms/liugeliang/vr_no_mass_20261013/redraw_without_mass.py.pre_NewScheme_20261014"
+  }
+]

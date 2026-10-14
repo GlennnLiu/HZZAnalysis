@@ -1,0 +1,707 @@
+[
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/README.md",
+    "new": "production/background/README.md",
+    "sha256": "bd2ea43efad06238d0a4e7e08f9309184e3c4d3a4852ae7b128b7b11a3d8fcb2"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/WORKLOG.md",
+    "new": "production/background/WORKLOG.md",
+    "sha256": "274639f04bd30ab1aed9041b82e93658015dd870eee778002c4a3018b8e5153d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/make_reduced_trees.py",
+    "new": "production/background/make_reduced_trees.py",
+    "sha256": "654b4f9b24a9f90e06d549ae0d45c01f8d2c4c7f03177af40ff891cad54cff53"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/preflight_all.py",
+    "new": "production/background/preflight_all.py",
+    "sha256": "bd2b34a97977ae2700651ac0d4160f90b2112df0f462dcde0bb3428fc591a446"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/produce_reduced_stream.py",
+    "new": "production/background/produce_reduced_stream.py",
+    "sha256": "d274fda59a4071e7ea514f73ee948225f56ab8d8cff5efc8182ac08caf28b4ab"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2016postAPV_merged.sh",
+    "new": "production/background/run_2016postAPV_merged.sh",
+    "sha256": "d836dd890280150621fefeef2f54e9a3a23b8db1e301d0df96d42139483a95a1"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2016postAPV_resolved.sh",
+    "new": "production/background/run_2016postAPV_resolved.sh",
+    "sha256": "1d64bea8c273b3ef656af60af62993e5c3a77a15b405e5241d0a27f731fba0b3"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2016preAPV_merged.sh",
+    "new": "production/background/run_2016preAPV_merged.sh",
+    "sha256": "1a1f1a7a0eba1048aef729228a6c0a795d2d15f9d535543524ecacadcd66c1af"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2016preAPV_resolved.sh",
+    "new": "production/background/run_2016preAPV_resolved.sh",
+    "sha256": "6c8b0b5d7b4d0e4ea3c4a8ecd10f1a82db1c3daaff11fc4c5c748e998da875f4"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2017_merged.sh",
+    "new": "production/background/run_2017_merged.sh",
+    "sha256": "c1463f94832ea5e7ff36a50cdb7cbba76242856f0d7660a9b665f1b47791f2ad"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2017_resolved.sh",
+    "new": "production/background/run_2017_resolved.sh",
+    "sha256": "81a18832ab4b22d5eabd54f8665359c8e5e412bfc0c35be4475d217162b4903e"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2018_merged.sh",
+    "new": "production/background/run_2018_merged.sh",
+    "sha256": "7368aeb45284dc31a9b77e50b99a01f4b10909f5e66452be52b0c33022f8ff38"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/run_2018_resolved.sh",
+    "new": "production/background/run_2018_resolved.sh",
+    "sha256": "bf75ba64c9aacacf19e4f8b596b191ad4eeff2297b0a2b8d1d0447b7e4a7b72c"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/test_reduced_pnet.py",
+    "new": "production/background/test_reduced_pnet.py",
+    "sha256": "3e409df515168fcad347e0089610b2dac77fceaa21416488b2a4465502a43423"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/validate_production.py",
+    "new": "production/background/validate_production.py",
+    "sha256": "543f795f283d21d95ff8bba010afb230ff7f713353e332073070d26a4622669e"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/cards/config_UL2016postAPV.yml",
+    "new": "production/background/cards/config_UL2016postAPV.yml",
+    "sha256": "e9c54737a733413cf65eab83c2360fc7705fb79a4ace38a7052f4bbea078b58a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/cards/config_UL2016preAPV.yml",
+    "new": "production/background/cards/config_UL2016preAPV.yml",
+    "sha256": "a0ea58282089c896a4fe04261a9aa28008ede991e84b3dc93dc06e2915c845ea"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/cards/config_UL2017.yml",
+    "new": "production/background/cards/config_UL2017.yml",
+    "sha256": "91a6ce81fe0dcee6667decd02a4c9f4944d1fdac5b12da7be94ef08274c138e3"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/cards/config_UL2018.yml",
+    "new": "production/background/cards/config_UL2018.yml",
+    "sha256": "a2d45993f6e3d44fc856eba701db45ddc8a2bce291d32fc3d3b37be16c3bb761"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/sf/NetSF_signal_2016postAPV.yml",
+    "new": "production/background/sf/NetSF_signal_2016postAPV.yml",
+    "sha256": "5f1a07b257ce75de65536567b4a38c2a9c846ffc8f57b3e6c8602a737a284d2c"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/sf/NetSF_signal_2016preAPV.yml",
+    "new": "production/background/sf/NetSF_signal_2016preAPV.yml",
+    "sha256": "9a669ec49cb117bdc02e217002c0671442beb9f0bfe9ff8d8b9c78c18ce4e1da"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/sf/NetSF_signal_2017.yml",
+    "new": "production/background/sf/NetSF_signal_2017.yml",
+    "sha256": "63d7a93446939ff6a17b9b6772ed1a5577ba1b7d92b1f6c042d8eeb10fb83afc"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/reduced_20261009_pnet/sf/NetSF_signal_2018.yml",
+    "new": "production/background/sf/NetSF_signal_2018.yml",
+    "sha256": "f47c383814f68ed4ee2985b20db73874722502e03dc2b60ccf7537b7efedb966"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/README.md",
+    "new": "production/signals/README.md",
+    "sha256": "b44d8e666bdaced933d5c13f259c70c251d26c2c629f0d15f36471be7379b79f"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/WORKLOG.md",
+    "new": "production/signals/WORKLOG.md",
+    "sha256": "9a43346330a93d10664e254cc07c579d74455d6f46ea31d6a7daeeb42e6a90a3"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/background_helper_snapshot.py",
+    "new": "production/signals/background_helper_snapshot.py",
+    "sha256": "654b4f9b24a9f90e06d549ae0d45c01f8d2c4c7f03177af40ff891cad54cff53"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/btageff_snapshot.py",
+    "new": "production/signals/btageff_snapshot.py",
+    "sha256": "370a59a92f395ddadc077590c8f24e6b94657f2e61de99c6a8c727362e5c0102"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/deepjet_helper_snapshot.py",
+    "new": "production/signals/deepjet_helper_snapshot.py",
+    "sha256": "ac4716cba352107582446076b8926659c97eebaae5755f756eed9f6b21de0f59"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/prepare_signal.py",
+    "new": "production/signals/prepare_signal.py",
+    "sha256": "6b91bf5f0016cb8e14b0921641ee78771f2687f9e0a3b41e55e1813f673c2edc"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/produce_signal_reduced.py",
+    "new": "production/signals/produce_signal_reduced.py",
+    "sha256": "71b585055ec04032f212863b594bc2770abc6573812ddcb9bd7bb2de4c2e6ff7"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016postAPV_merged.sh",
+    "new": "production/signals/run_2016postAPV_merged.sh",
+    "sha256": "246192e8dba5f279199238d3ae59cbe913e6769215594774c5c9ed4bd6971460"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016postAPV_resolved.sh",
+    "new": "production/signals/run_2016postAPV_resolved.sh",
+    "sha256": "e52552c9a01f4c79710d7b66ea7846edc4615a91937dee1d24b587e56b9e5163"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016preAPV_merged.sh",
+    "new": "production/signals/run_2016preAPV_merged.sh",
+    "sha256": "33dbde9d08ae3b0c7387498c0bc1edee4f194e409deb4903acb050dd4c102e94"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2016preAPV_resolved.sh",
+    "new": "production/signals/run_2016preAPV_resolved.sh",
+    "sha256": "fab9833d197bb4a9502edba50797476e120a65a9fd898240cd739dd1ab60c6da"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2017_merged.sh",
+    "new": "production/signals/run_2017_merged.sh",
+    "sha256": "2f3fc8ad8863c734270c51e28790c899d0f2144edc5cd7eaa2013565891ca597"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2017_resolved.sh",
+    "new": "production/signals/run_2017_resolved.sh",
+    "sha256": "9abd378b9953ca04b5234839fdfdb090e7d4388314c438a3b711c95923711c8a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2018_merged.sh",
+    "new": "production/signals/run_2018_merged.sh",
+    "sha256": "c37cb9631639073ecb7ff3c1eae874464668d6697e9cab6ac747baee21a6ae22"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/run_2018_resolved.sh",
+    "new": "production/signals/run_2018_resolved.sh",
+    "sha256": "de8606f8c7f1249e5036a8e6162b9d45e6150c7228ef0ea3af485e7290929c01"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/submit_jobs.py",
+    "new": "production/signals/submit_jobs.py",
+    "sha256": "0d9981c4d2e71f4746ac8b140ce05adc418b97143259cc04437d2d8f9d6787cf"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/validate_complete.py",
+    "new": "production/signals/validate_complete.py",
+    "sha256": "b01c7b14bb88d3f74f45d0d762b7208bf918c82d012513c2594730fd008b7c8b"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/cards/config_UL2016postAPV.yml",
+    "new": "production/signals/cards/config_UL2016postAPV.yml",
+    "sha256": "e9c54737a733413cf65eab83c2360fc7705fb79a4ace38a7052f4bbea078b58a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/cards/config_UL2016preAPV.yml",
+    "new": "production/signals/cards/config_UL2016preAPV.yml",
+    "sha256": "a0ea58282089c896a4fe04261a9aa28008ede991e84b3dc93dc06e2915c845ea"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/cards/config_UL2017.yml",
+    "new": "production/signals/cards/config_UL2017.yml",
+    "sha256": "91a6ce81fe0dcee6667decd02a4c9f4944d1fdac5b12da7be94ef08274c138e3"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/cards/config_UL2018.yml",
+    "new": "production/signals/cards/config_UL2018.yml",
+    "sha256": "a2d45993f6e3d44fc856eba701db45ddc8a2bce291d32fc3d3b37be16c3bb761"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/sf/NetSF_signal_2016postAPV.yml",
+    "new": "production/signals/sf/NetSF_signal_2016postAPV.yml",
+    "sha256": "5f1a07b257ce75de65536567b4a38c2a9c846ffc8f57b3e6c8602a737a284d2c"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/sf/NetSF_signal_2016preAPV.yml",
+    "new": "production/signals/sf/NetSF_signal_2016preAPV.yml",
+    "sha256": "9a669ec49cb117bdc02e217002c0671442beb9f0bfe9ff8d8b9c78c18ce4e1da"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/sf/NetSF_signal_2017.yml",
+    "new": "production/signals/sf/NetSF_signal_2017.yml",
+    "sha256": "63d7a93446939ff6a17b9b6772ed1a5577ba1b7d92b1f6c042d8eeb10fb83afc"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/jobs/signal_reduced_20261012/sf/NetSF_signal_2018.yml",
+    "new": "production/signals/sf/NetSF_signal_2018.yml",
+    "sha256": "f47c383814f68ed4ee2985b20db73874722502e03dc2b60ccf7537b7efedb966"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/README.md",
+    "new": "plots/z_kinematics/README.md",
+    "sha256": "607da0dca92e15038a7e99b05f838ce6dc48344f61610865e76a91c63fd1dfb6"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/WORKLOG.md",
+    "new": "plots/z_kinematics/WORKLOG.md",
+    "sha256": "158fd621019e411abfd3be73b3365c7de1abadd106c86c3f2eda23c0702f7b71"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/plot_run2_z.py",
+    "new": "plots/z_kinematics/plot_run2_z.py",
+    "sha256": "d95eea2cf67d70a5f4fc35b1aeb882eb6aafd04d5c25effe84d92fe6b7a3bc9e"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_z_kinematics_PNet/validate_package.py",
+    "new": "plots/z_kinematics/validate_package.py",
+    "sha256": "1c97eb5d7f4c5275e99a93127539a747412cd60c3ec4852d6f6d9ff634644990"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/README.md",
+    "new": "plots/discriminants/README.md",
+    "sha256": "61a7170285ae58b53464f76efd25bb92eb06f5466cd0b31284ceecf52fd2bea2"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/WORKLOG.md",
+    "new": "plots/discriminants/WORKLOG.md",
+    "sha256": "1f503e5ecf743de01c95acf9e385ec41240c7df8910a7f0e8f9577308cc3a8a8"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/plot_run2_kd.py",
+    "new": "plots/discriminants/plot_run2_kd.py",
+    "sha256": "fa90ea7e0934aa3f6324e3e60d67e07c1c93b2403c940f8eaa1f004c00c8754b"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_discriminants_PNet/validate_package.py",
+    "new": "plots/discriminants/validate_package.py",
+    "sha256": "429d5b0cd7a791d44d8a366fb24328e9ae8070daf51c3f66a3a0b533d0a7b803"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_scores/README.md",
+    "new": "plots/pnet/README.md",
+    "sha256": "24729eaceb9f7c298b44ff55191db26adfc693122a13d6a89e6c58d4c271a271"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_scores/plot_run2_pnet.py",
+    "new": "plots/pnet/plot_run2_pnet.py",
+    "sha256": "2b4c8fad8c0d496afa929e22469f03418a9b6c2ce9d626bf09a9735f2c2b9c8a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_scores/validate_package.py",
+    "new": "plots/pnet/validate_package.py",
+    "sha256": "636f49c134ccbf6c68b0af8818e88e4e9b74edd5860d8780372517a0ed8f50e7"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/README.md",
+    "new": "plots/pnet_fullrange/README.md",
+    "sha256": "53f65e5ada723414078d407e4e44e457463e760eaf5c568ec27eca2aaa8a1321"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/WORKLOG.md",
+    "new": "plots/pnet_fullrange/WORKLOG.md",
+    "sha256": "399ccb0cdd359ea76eba7a25e6e837f5b7b7f171c2f16f7bd277b814bfd9138a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/plot_fullrange_pnet.py",
+    "new": "plots/pnet_fullrange/plot_fullrange_pnet.py",
+    "sha256": "d0e02f6b4928d84d206995f9639dca2b7fe07d921ac96ce23d3b94c420f0ceb4"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/run2_PNet_fullrange/validate_package.py",
+    "new": "plots/pnet_fullrange/validate_package.py",
+    "sha256": "b8a8dc45160b43758c6d6f40b22304d8c6b99d29852c36b64f968ed2dd0855fc"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/README.md",
+    "new": "plots/dy_pnet/README.md",
+    "sha256": "73fd00662a8f8bf2ba647ee62891f31ebbddcaa21e58a63a2f9aee71f97c2cfd"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/WORKLOG.md",
+    "new": "plots/dy_pnet/WORKLOG.md",
+    "sha256": "aabafe2ae0b7b54d89d8028397b9fd873e514dff33d286d7e0597fcc1725b0b9"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/plot_dy_pnet.py",
+    "new": "plots/dy_pnet/plot_dy_pnet.py",
+    "sha256": "b2d0a3b6ba3fd2bb812dff343589ffd02e587d19b9bdbada1af87fb473e4fb98"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/test_dy_pnet.py",
+    "new": "plots/dy_pnet/test_dy_pnet.py",
+    "sha256": "b96bf84604a28b9586b71e1d27b9054b628bb8e467fcdd4a9135667b5e711461"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/dy_pnet_comparison_allEras/validate_package.py",
+    "new": "plots/dy_pnet/validate_package.py",
+    "sha256": "f4ffb1edf3236bd1ec7cb8b2ab9a2c1cb745e0e7482983c3c85a8e07c74049fd"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/README.md",
+    "new": "plots/sr_pnet/README.md",
+    "sha256": "266620938840f1905cb10cbf50914171f3c91f6798e82b64a8ff735d00c6d777"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/WORKLOG.md",
+    "new": "plots/sr_pnet/WORKLOG.md",
+    "sha256": "7cd710eeb8c3dc79c69ae057e22b7b193a6510cad12b9a6425c97d2877696144"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/check_sr_pnet.py",
+    "new": "plots/sr_pnet/check_sr_pnet.py",
+    "sha256": "18b94f857a492a8fd98d9dd758f571f6cbf228dfbb70aabeb5261ec67598b704"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/sr_pnet_datamc_2018/test_sr_pnet.py",
+    "new": "plots/sr_pnet/test_sr_pnet.py",
+    "sha256": "18797828d7336dc437585b87ea6cefb6d0797a2801317cf64390263a22257eeb"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/README.md",
+    "new": "plots/alpha_pnet/README.md",
+    "sha256": "f770ede3fb4cb121df543d7eee9df6e1194d03193780807200f0b240974961fa"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/WORKLOG.md",
+    "new": "plots/alpha_pnet/WORKLOG.md",
+    "sha256": "26683f7355fe187e937565e44e417cd74d79dc6f764d24e5329b630660f783df"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/check_alpha_pnet.py",
+    "new": "plots/alpha_pnet/check_alpha_pnet.py",
+    "sha256": "208f602e50cd1f3a6010d8866c420c294256a244d4ff113aaf85845884c429f8"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/test_alpha_pnet.py",
+    "new": "plots/alpha_pnet/test_alpha_pnet.py",
+    "sha256": "56d207b00ec682f50de9dbf87e0831c59c2cea8e5ba43d3a30910e8c14612fd8"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_pnet_comparison_2018/validate_package.py",
+    "new": "plots/alpha_pnet/validate_package.py",
+    "sha256": "530064f6b5ef3ec4d8e7da417f3ce7763bec4c054f994d747d83eebf11856e19"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/README.md",
+    "new": "plots/alpha_closure/README.md",
+    "sha256": "057d07871b1205bcd3de913852734f3533bfcf619650ed2250923fd143451f78"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/WORKLOG.md",
+    "new": "plots/alpha_closure/WORKLOG.md",
+    "sha256": "38bf5008b8100fd600468e0a8d6c75b2a042fe60a9668614ed36d8caed5c2dda"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/check_alpha_closure.py",
+    "new": "plots/alpha_closure/check_alpha_closure.py",
+    "sha256": "b5959711572250321b4a0bae0964d579c3e89fab2668bf00f5a8708382ba5044"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/compatibility.md",
+    "new": "plots/alpha_closure/compatibility.md",
+    "sha256": "128b09fe9174143d253c969e20679762ad6816acde58f59f6aeb7e83b609f605"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/plot_helpers.py",
+    "new": "plots/alpha_closure/plot_helpers.py",
+    "sha256": "1c92b4547517627fbd969b46333de8257cccf0b45e99ed4cd5a2dbb61ff8941d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/replot_cached.py",
+    "new": "plots/alpha_closure/replot_cached.py",
+    "sha256": "a77facf2307251c62ab7a315ace090449bef5405d28fbca833ecaff4511fd7db"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/test_closure.py",
+    "new": "plots/alpha_closure/test_closure.py",
+    "sha256": "e226793bb3c0e02d5379ae85681f8b729941eb751aa05ca56c1a9da551925e61"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/alpha_closure_pnet_2018/validate_package.py",
+    "new": "plots/alpha_closure/validate_package.py",
+    "sha256": "3b5c5e2bc5f4686a803c57864b7c73b6c79abc0fb75f9f68596b51b3a8ffc48a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/LAYOUT_WORKLOG.md",
+    "new": "plots/signal_overlay/LAYOUT_WORKLOG.md",
+    "sha256": "0b2095dab3b5d576a2a6389a0405104d97489babc4071360e9025fb8ed87a376"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/WORKLOG.md",
+    "new": "plots/signal_overlay/WORKLOG.md",
+    "sha256": "90c64088b6e4444a15d632a75d7a554e28f815f1f1528d687656b761ea27df30"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/package_layouts.py",
+    "new": "plots/signal_overlay/package_layouts.py",
+    "sha256": "461831f7eb847b6bbcecc6d0d79c8ea0ea923431f55be7f98d60eff55b03a64a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_fullrange_pnet.py",
+    "new": "plots/signal_overlay/plot_fullrange_pnet.py",
+    "sha256": "d0e02f6b4928d84d206995f9639dca2b7fe07d921ac96ce23d3b94c420f0ceb4"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_run2_kd.py",
+    "new": "plots/signal_overlay/plot_run2_kd.py",
+    "sha256": "fa90ea7e0934aa3f6324e3e60d67e07c1c93b2403c940f8eaa1f004c00c8754b"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/plot_run2_pnet.py",
+    "new": "plots/signal_overlay/plot_run2_pnet.py",
+    "sha256": "2b4c8fad8c0d496afa929e22469f03418a9b6c2ce9d626bf09a9735f2c2b9c8a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/prepare_histograms.py",
+    "new": "plots/signal_overlay/prepare_histograms.py",
+    "sha256": "17124b479a8b82ef5b631420b3daa57f680a9df55323b39f7e346f688ec5cb27"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/render_plots.py",
+    "new": "plots/signal_overlay/render_plots.py",
+    "sha256": "ef2f410844d2513c8787f71427bc103e7a4a7be55c9a221bc76985060ddaa056"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/revise_layouts.py",
+    "new": "plots/signal_overlay/revise_layouts.py",
+    "sha256": "bef116529603f364436ee047744e6a48c46b6afa2cd1ea9dd56f97f62f1ab6eb"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/Plot/signal_overlay_Run2_20261013/validate_plots.py",
+    "new": "plots/signal_overlay/validate_plots.py",
+    "sha256": "ac1d27b80712934508af67a4b8b6d1767a8e0e7e070599e91f4cc2cbc29065af"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/AUXILIARY_ALPHA_STUDY.md",
+    "new": "studies/alpha_ratio/AUXILIARY_ALPHA_STUDY.md",
+    "sha256": "38853980b423e787274a633e122489c6dc015d0402e5e058ce2d603f4af3b8b6"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/CLOSURE_STUDY.md",
+    "new": "studies/alpha_ratio/CLOSURE_STUDY.md",
+    "sha256": "0be0b7e22c3f15182cb13f35942b59c28d05d9cafead6741610b38f54d0734cc"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/CR_MASS_PT_CHANNEL.md",
+    "new": "studies/alpha_ratio/CR_MASS_PT_CHANNEL.md",
+    "sha256": "b40fca3d1ea417e9b360bbd2fe2986146eac00e423d9c03780e4fcce83d05e22"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/CR_PT_PLOTS.md",
+    "new": "studies/alpha_ratio/CR_PT_PLOTS.md",
+    "sha256": "f1c38e37c7e882b62622c4dd622edd09d75fc48dbd4584caad275ef5d8c13b22"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/DOUBLE_RATIO_STUDY.md",
+    "new": "studies/alpha_ratio/DOUBLE_RATIO_STUDY.md",
+    "sha256": "377cdbb5f24f6229111783f833e2e7afa2eecb1024122d5fe11a4507a4815fac"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/MASS_REWEIGHT_STUDY.md",
+    "new": "studies/alpha_ratio/MASS_REWEIGHT_STUDY.md",
+    "sha256": "cdb2b3565424039bfabcaea66a0779e518d1848e2b872215736c1418fb71a7e2"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/PT_CHANNEL_STUDY.md",
+    "new": "studies/alpha_ratio/PT_CHANNEL_STUDY.md",
+    "sha256": "b02064bc3b6e6ad634f73268b855baa710f4c203672a1cf616ae1ba5d8ffddad"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/SR_METHOD_COMPARISON.md",
+    "new": "studies/alpha_ratio/SR_METHOD_COMPARISON.md",
+    "sha256": "353de91e5dc5b73cd04fe29c39d832d2c6f5d282dfdaf49138a2adcbaed9805d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/VR_METHOD_COMPARISON.md",
+    "new": "studies/alpha_ratio/VR_METHOD_COMPARISON.md",
+    "sha256": "2d82f328ab07705ccafa2124aeab41a86ec57087c71aea01c74bb3506ae7ef83"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/WORKLOG.md",
+    "new": "studies/alpha_ratio/WORKLOG.md",
+    "sha256": "b93d38f07990dd3aef6744af74906d1b24db933b54c78d5fc7b9f389431bc38a"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/auxiliary_alpha_closure.py",
+    "new": "studies/alpha_ratio/auxiliary_alpha_closure.py",
+    "sha256": "c5f685dae0112e1194d890260dae5b433219b5a7412b19bc0b0ff48c3e6f24f8"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/closure_untag.py",
+    "new": "studies/alpha_ratio/closure_untag.py",
+    "sha256": "88b6c3035be764911d025a5f71415376a68d5c80079c945449a8d36f695ba5f5"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/common.py",
+    "new": "studies/alpha_ratio/common.py",
+    "sha256": "60f9e262d601fff7405d63c871eea848595aea83d52a29efca2cbea8f51b604e"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/compare_zh_subtraction.py",
+    "new": "studies/alpha_ratio/compare_zh_subtraction.py",
+    "sha256": "9138b3701465c97e3110770f75889dfaf6a5aadf83c1baa28fbda47468cb4ef4"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/double_ratio_untag.py",
+    "new": "studies/alpha_ratio/double_ratio_untag.py",
+    "sha256": "41fab522e7da6f3c99405c489877c688b3bdbaff0adc98055f0698c7d1973c3d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/finalize_pt_reweight_channel.py",
+    "new": "studies/alpha_ratio/finalize_pt_reweight_channel.py",
+    "sha256": "f9366c61e7a2a7279e90fe07292e7e512fc36d69571a91ff9d0b80ec84caffb9"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/mass_reweight_dy.py",
+    "new": "studies/alpha_ratio/mass_reweight_dy.py",
+    "sha256": "9ae81ed33dd06a2b8876117e4c60e01502265ac2822a870d7c18734aa1b654c5"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/package_pt_reweight.py",
+    "new": "studies/alpha_ratio/package_pt_reweight.py",
+    "sha256": "b9d7e8af0f36bcfb40d6548c58bcb5e3b3ea5a3c7e9a1738234f53b98415694b"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/package_study.py",
+    "new": "studies/alpha_ratio/package_study.py",
+    "sha256": "bffde292190596c656f0573d16d89c93e54f1a8f1e993fe869ed390b2007e688"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_cr_mass_pt_reweight_channel.py",
+    "new": "studies/alpha_ratio/plot_cr_mass_pt_reweight_channel.py",
+    "sha256": "93a482c54541debbddde152b7f307382ca84eab6274064b512f3f53354d5184d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_cr_pt_reweight.py",
+    "new": "studies/alpha_ratio/plot_cr_pt_reweight.py",
+    "sha256": "3aef16263bd47ed61b381a785bb839c584e05c27c106c5395baf424661441e21"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_double_ratio_summary.py",
+    "new": "studies/alpha_ratio/plot_double_ratio_summary.py",
+    "sha256": "1185ae5ba371f26682bca9df6b44c8aa08a2122cae9a79dc54b6bcef8513b25d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_mass_reweight.py",
+    "new": "studies/alpha_ratio/plot_mass_reweight.py",
+    "sha256": "3f03a18b57c1f3a4db7ad26f2b495c1dfa11b87ddeee02100e6b18834d1ac387"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_pt_reweight.py",
+    "new": "studies/alpha_ratio/plot_pt_reweight.py",
+    "sha256": "ed8a8893b2f74fde3c5d09f95826b0739a5c7fc2ece1664bf1464b50cc9d0e56"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_pt_reweight_channel.py",
+    "new": "studies/alpha_ratio/plot_pt_reweight_channel.py",
+    "sha256": "881ea012d119cdc97dc225e5913f7562879f88383096077e904ad0e3e524ffe6"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_methods.py",
+    "new": "studies/alpha_ratio/plot_sr_methods.py",
+    "sha256": "5d6de2e3045a49a24c5b890cfed8abc62206b34e42a40c7cfb0b8ef4c768a104"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_pt_reweight.py",
+    "new": "studies/alpha_ratio/plot_sr_pt_reweight.py",
+    "sha256": "5c7146c69f0bfd4592c8d5c3f7b0422e4d5a13081d966b345f80416631b61759"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_sr_zh_statband.py",
+    "new": "studies/alpha_ratio/plot_sr_zh_statband.py",
+    "sha256": "51d7c9c4e3811faef43e046ef75eaa4409743ec10e9907706317843d41562b44"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/plot_vr_methods.py",
+    "new": "studies/alpha_ratio/plot_vr_methods.py",
+    "sha256": "186d219f039c66751f0374fa7d871f413c3d720431c9136d458a35446e187c62"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/prepare_zh_reduced.py",
+    "new": "studies/alpha_ratio/prepare_zh_reduced.py",
+    "sha256": "72271b2b288dd6ba9732a84a219086ccdd757c0b84a29ea606f47fb7515636a9"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/probe_pt_inputs.py",
+    "new": "studies/alpha_ratio/probe_pt_inputs.py",
+    "sha256": "6a0f77397ad512277643e6e50a6124635753449492aae11d13577e2ca400857d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_channel.py",
+    "new": "studies/alpha_ratio/pt_reweight_channel.py",
+    "sha256": "2868192969deae1def20171d58a2d0cb7328a8c8226c452ae3bbae2ef7686b60"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_core.py",
+    "new": "studies/alpha_ratio/pt_reweight_core.py",
+    "sha256": "b00dadba17f4087dd23bbf78e1dad89ce6605c6209ae9f1ede451e42464bdac8"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_dy.py",
+    "new": "studies/alpha_ratio/pt_reweight_dy.py",
+    "sha256": "208f4933f5ec45d08722d6585135aed557c55098c2330f0e4d534058d4b249bb"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/pt_reweight_scan.py",
+    "new": "studies/alpha_ratio/pt_reweight_scan.py",
+    "sha256": "b4617c1718c66cd49f8e0255ac00ec99ad73467c25b216763628463c0b0ef830"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/quick_validate.py",
+    "new": "studies/alpha_ratio/quick_validate.py",
+    "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/study_crs.py",
+    "new": "studies/alpha_ratio/study_crs.py",
+    "sha256": "398aa5f81de26ee1a05f00d7c907217359b19fc147331dbded98f6f03fd7fffb"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_auxiliary_alpha_closure.py",
+    "new": "studies/alpha_ratio/test_auxiliary_alpha_closure.py",
+    "sha256": "8434322cde49c945ad88087847df44c281471fe4018fbc12e2e973030dd82bef"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_mass_reweight.py",
+    "new": "studies/alpha_ratio/test_mass_reweight.py",
+    "sha256": "74d9119eee1f5251b4c43884d2e6f1ebe7b9b5177e66b8ca56cd63a7f1b8fa96"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_pt_reweight.py",
+    "new": "studies/alpha_ratio/test_pt_reweight.py",
+    "sha256": "2b0770dc158bc0eb0ca7b83a98d2bb4a4013490865cef15c8b1029cea7760fe0"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_pt_reweight_channel.py",
+    "new": "studies/alpha_ratio/test_pt_reweight_channel.py",
+    "sha256": "3bbc221b4a679c2a73b4e600b1a4e152c8b6b75a4fa4c34af8d00c5f56d49747"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/test_zh_subtraction.py",
+    "new": "studies/alpha_ratio/test_zh_subtraction.py",
+    "sha256": "6fb5350b5b0540d9ed4c0254cff642bd580f3fa1f26de90c2e67b5b1bb29bbe3"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/validate_pt_reweight.py",
+    "new": "studies/alpha_ratio/validate_pt_reweight.py",
+    "sha256": "d557519b52cc6ccca94f20d28d41db2d2277f944753da5cf304af8687a4d004d"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/validate_study.py",
+    "new": "studies/alpha_ratio/validate_study.py",
+    "sha256": "5823eb92530634415a36e327cfa192aae8730b157dd99890a5227a35a48b0fc9"
+  },
+  {
+    "old": "/cms/user/liugeliang/CMS/HZZAnalysis/FitTemplate/AlphaRatio_examination/zjet_mass_slices.py",
+    "new": "studies/alpha_ratio/zjet_mass_slices.py",
+    "sha256": "7a3a8eea80c48907ef13fa1747a7654e526c94544131487e436d887c746b5573"
+  },
+  {
+    "old": "/scratchfs2/cms/liugeliang/vr_no_mass_20261013/redraw_without_mass.py",
+    "new": "studies/alpha_ratio/redraw_without_mass.py",
+    "sha256": "b5200a1afd8b88bbc93a2c10fe77888d43103fda1712d7c16c5125f4a6a48136"
+  }
+]
